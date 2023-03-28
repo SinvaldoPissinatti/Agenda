@@ -1,6 +1,10 @@
 {% extends "model_page.html" %}
 
 {% block content %}
+    <div align="right">
+        <a href="/logout">Logout</a>
+    </div>
+
     <h1>Agenda</h1>
     <ul style="font-size: 20px;">
         {% for eventos in eventos %}
